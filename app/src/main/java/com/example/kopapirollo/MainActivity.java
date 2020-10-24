@@ -42,6 +42,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 svalasztas = "Rock";
                 im_cup.setImageResource(R.drawable.rock);
+                calculate();
+                jatekVege();
             }
         });
         b_rock.setOnClickListener(new View.OnClickListener() {
@@ -49,6 +51,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 svalasztas = "Papper";
                 im_cup.setImageResource(R.drawable.paper);
+                calculate();
+                jatekVege();
             }
         });
         b_rock.setOnClickListener(new View.OnClickListener() {
@@ -56,6 +60,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 svalasztas = "Scissors";
                 im_cup.setImageResource(R.drawable.scissors);
+                calculate();
+                jatekVege();
             }
         })
 
